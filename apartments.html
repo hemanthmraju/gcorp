@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600italic,600,400italic,300italic,300,700,700italic,800,800italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery.themepunch.plugins.min.js"></script><script src="js/jquery.themepunch.revolution.min.js"></script><script src="js/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+<div id="wraper">
+
+
+<header>
+<div class="box" style="height:120px; padding:10px 0;" >
+<div style="height:120px; float:left;"><img src="img/logo.png" style="height:120px;"></div>
+<div style="height:120px; float:right;"><img src="img/g-corp.jpg" width="143" height="56"></div>
+
+</div>
+</header>
+<!-- nav-box -->
+<nav class="nav-box"> 
+  <!-- nav -->
+  <ul id="nav">
+    <li class="has-sub"><a href="#" class="active">THE ICON</a>
+      <ul>
+        <li><a href="overview.html">OVERVIEW</a></li>
+        <li><a href="apartments.html">THE APARTMENTS</a></li>
+        <li><a href="leed_gold.html">LEED GOLD</a></li>
+        <li><a href="#">LOCATION</a>
+          <ul>
+            <li><a href="#">LOCATION MAP</a></li>
+            <li><a href="#">NORTH BANGALORE</a></li>
+            <!-- <li><a href="site_plan.php">MASTER PLAN</a></li> -->
+          </ul>
+        </li>
+        <li><a href="#">GALLERY</a>
+          <ul>
+            <!-- <li><a href="floor_plan.php">FLOORPLANS</a></li> -->
+            <li><a href="#">RENDERS</a></li>
+          </ul>
+        </li>
+        <li><a href="#">AWARDS</a></li>
+        <li><a href="#">KEY FEATURES</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a href="#">MASTER/FLOOR PLAN</a>
+      <ul>
+        <li><a href="#">MASTER PLAN</a></li>
+        <li><a href="#">FLOORPLANS</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a href="#">RESOURCES</a>
+      <ul>
+        <li><a href="#"  >Visual tour</a></li>
+        <li> <a href="#">Walk Through</a></li>
+        <li><a href="#" >Download brochure</a></li>
+        <li><a href="#" >Download application </a></li>
+      </ul>
+    </li>
+    <li><a href="#">CONSTRUCTION PROGRESS</a></li>
+    <li class="has-sub"><a href="#">G-CORP</a>
+      <ul>
+        <li><a href="#">ABOUT G-CORP</a></li>
+        <li><a href="#">COMPLETED PROJECTS</a></li>
+      </ul>
+    </li>
+    <li><a href="#">CONTACT</a></li>
+  </ul>
+</nav>
+<div id="content">
+  <div id="main_content">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr><td valign="top">
+  <h1>THE APARTMENTS</h1>
+  <p><strong>THE ICON features 3 & 4 Bedrooms and Penthouses ranging from 1795 to 3097 sq. ft. Spacious, well designed and featuring the very best in fittings and materials - THE ICON creates incomparable value for money.</strong></p>
+  
+  <img src="img/site_images/living_room.jpg" id="app_img" class="full_image">
+  <div><div style="float:right; max-width:650px; min-width:320px; text-align:left;"><h4 style="font-family:Arial, Helvetica, sans-serif; font-weight:lighter; font-size:18px;" id="app_text">Vitrified tile flooring. Main door made of teak wood frame with flush door shutter with veneered finish.</h4></div>
+<ul class="appt_lnks">
+  <li id="liv_rm">LIVING ROOM</li>
+  <li id="kitchen">KITCHEN</li>
+  <li id="bed">BEDROOMS</li>
+  <li id="toilet">TOILETS</li>
+  <li id="security">SECURITY</li>
+  <li id="elec">ELECTRICAL SYSTEM</li>
+</ul>
+<script>
+$("#liv_rm").click(function(e) {
+    $("#app_text").html("Vitrified tile flooring. Main door made of teak wood frame with flush door shutter with veneered finish.");
+	document.getElementById("app_img").src = "img/site_images/living_room.jpg";
+});
+$("#kitchen").click(function(e) {
+    $("#app_text").html("Rectified Ceramic tiles, Ceramic Dado above counter up to 2 ft. Granite counter tops.");
+	document.getElementById("app_img").src = "img/site_images/kitchen.jpg";
+});
+$("#bed").click(function(e) {
+    $("#app_text").html("Laminated wooden flooring for Master bedroom. Rectified Ceramic for other bed rooms. Hard wood frame with Masonite flush shutters. A/c Point in master bed room and other bedroom will be provided with PVC conducting and dummy point.");
+	document.getElementById("app_img").src = "img/site_images/bedroom.jpg";
+});
+$("#toilet").click(function(e) {
+    $("#app_text").html("Designer Ceramic tile flooring, Ceramic tile Dado up-to 7' height. Sanitary ware of reputed make will be provided in white colour for all toilets. Granite counter top wash basin. CP fixtures of reputed make like Jaquar or equivalent. Single lever mixers for shower & washbasin. Exhaust fans and geyser points in all toilets.");
+	document.getElementById("app_img").src = "img/site_images/toilet.jpg";
+});
+$("#security").click(function(e) {
+    $("#app_text").html("A fully integrated intercom / Security system from security office to apartment. Telephone points in living and all bed rooms. Fire protection and fighting system for the building as per statutory and fire safety requirements.");
+	document.getElementById("app_img").src = "img/site_images/security.jpg";
+});
+$("#elec").click(function(e) {
+    $("#app_text").html("Main distribution board for each apartment with area wise MCB's. Concealed PVC conduits with copper wiring. Geyser points in all the toilets.100% back up for common services. Back up of 1.5 KW to 3 KW each apartment.");
+	document.getElementById("app_img").src = "img/site_images/electrical_systems.jpg";
+});
+</script>
+</div>
+  </td>
+  </tr>
+  </table>
+  </div>
+  <div class="box" style="text-align:center;">
+    <h6>HOMES DESIGNED FOR THE MODERN LIFESTYLE WITH FACILITIES AND FEATURES BUILT FOR THE MODERN FAMILY.</h6>
+    <p style="font-style:italic;">A new lifestyle in bangalore. Homes designed for the modern lifestyle with facilities and features built for the modern family.</p>
+  </div>
+  <div class="box">
+    <table border="0" cellpadding="0" cellspacing="0" align="center" class="responsive">
+      <tr>
+        <td><div class="txt_box"> <a href=""></a>
+            <div>
+              <h5>THE ICON</h5>
+              <p> HOMES DESIGNED FOR THE MODERN LIFESTYLE WITH FACILITIES AND FEATURES BUILT FOR THE MODERN FAMILY. </p>
+            </div>
+
+          </div>
+          <div class="txt_box"> <a href=""></a>
+            <div>
+              <h5>LOCATION</h5>
+              <p>THE FASTEST DEVELOPING REGION IN BANGALORE. VERY WELL CONNECTED TO ALL THE PRIME LOCATIONS.</p>
+            </div>
+          </div>
+          <div class="txt_box"> <a href=""></a>
+            <div>
+              <h5>LEED GOLD</h5>
+              <p>IN ICON, ECO FRIENDLY MEASURES HAVE BEEN ADOPTED TO ENSURE THE BUILDING FOR FUTURE SUSTENANCE & ENERGY EFFICIENT.</p>
+            </div>
+          </div></td>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <div class="links_box">
+      <table border="0" cellpadding="0" cellspacing="0" align="center" class="responsive">
+        <tr>
+          <td><div class="use_links">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="overview.html">OVERVIEW</a></li>
+                <li><a href="apartments.html">THE APARTMENTS</a></li>
+                <li><a href="leed_gold.html"> LEED GOLD</a></li>
+                <li><a href="#">LOCATION MAP</a></li>
+                <li><a href="#">NORTH BANGALORE</a></li>
+              </ul>
+            </div>
+            <div class="use_links">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a href="#">MASTER PLAN</a></li>
+                <li><a href="#">KEY FEATURES</a></li>
+                <li><a href="#">FLOORPLAN</a></li>
+                <li><a href="#">RENDERS</a></li>
+                <li><a href="#">VISUAL TOUR</a></li>
+                <li><a href="#"> WALK THROUGH</a></li>
+              </ul>
+            </div>
+            <div class="use_links">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a href="#">CONSTRUCTION PROGRESS</a></li>
+                <li><a href="#">DOWNLOAD BROCHURE</a></li>
+                <li><a href="#">DOWNLOAD APPLICATION</a></li>
+                <li><a href="#">G CORP</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+            <div class="use_links">
+              <h5>Latest Tweets</h5>
+              <p>All images used here are for representation purposes only and do not depict the actual finished product. All the specifications mentioned here are subject to change without advance notification by the developers. </p>
+            </div></td>
+        </tr>
+      </table>
+    </div>
+    <div class="copyright">
+      <div class="box">
+        <h4>COPYRIGHT © 2013 THE ICON BANGALORE . ALL RIGHTS RESERVED.</h4>
+      </div>
+    </div>
+  </footer>
+  </div>
+</div>
+</body>
+</html>
